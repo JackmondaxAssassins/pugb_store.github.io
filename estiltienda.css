@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Protest Riot', sans-serif;
+    
+
+}
+
+html {
+    height: 100%;
+}
+
+body {
+
+   background-color: white; 
+    
+}
+
+header {
+   height: 550px;
+   width: 100%;
+   position: relative;
+   overflow: hidden;   
+    
+}
+
+video {
+    width: 100%;
+   
+}
+
+
+
+.contai {
+    width: 100%;
+    height: 100%;
+    top: 0px;  
+    position: absolute;
+    background: rgba(0, 0, 0, 0.74);  
+    
+}
+
+.conn{
+    width: 100%;
+     height: 100%;
+     top: 50px;  
+     position: absolute;    
+     left: 30px; 
+     
+  }
+  
+.logo{  
+    width: 90%;
+    display: flex;    
+}
+.logo img{
+    width: 400px;
+    height: 300px; 
+   
+}
+.logoo{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 20px;
+   
+   
+}
+
+.logoo h1{
+    color: rgb(238, 238, 238);
+    font-size: 90px;   
+}
+
+.logoo h4{
+    color: rgba(229, 236, 226, 0.562);
+    
+}
+
+.logoo h6{
+    color: rgba(226, 236, 236, 0.562);
+    font-size: 20px;   
+}
+
+.naveg{
+    height: 200px;  
+    display: flex;
+    justify-content: right;   
+    align-items: center;
+    padding-right: 60px;
+}
+
+
+.naveg ul{
+    display: inline-flex;   
+    list-style: none;
+    padding: 0;
+    align-items: end; 
+   
+}
+
+.naveg a{
+    color: rgb(237, 241, 25);
+    text-decoration: none;
+    padding: 10px;
+    font-size: 34px;
+  
+
+ }
+
+.naveg a:hover{
+    color: rgb(224, 15, 15);
+    font-size:30px;
+   
+}
+
+
+.naveg .btn{
+color:  rgb(237, 241, 25);
+font-size: 44px;
+padding: 0;
+}
+
+.naveg .btn:hover{
+    color: rgb(224, 15, 15);
+    font-size:40px;
+   
+}
+
+
+
+
+
+.footer{    
+    background: rgba(0, 0, 0, 0.699);
+    display: flex;
+    padding-top: 40px;
+    text-align: center;
+
+}
+
+.pieizquierdo{   
+    width: 100%;
+}
+
+.pieizquierdo img{
+    border-radius: 150px;
+}
+
+.piemedio{ 
+    width: 100%;
+    text-align: center;
+}
+.piemedio h3{
+    color:  rgb(237, 241, 25);
+    font-size: 27px;   
+}
+
+.piemedio ul{
+    list-style: none;   
+    padding-top: 40px;
+}
+
+.piederecho{  
+    width: 100%;
+}
+
+.piederecho h3{
+    color:  rgb(237, 241, 25);
+    font-size: 27px;
+    text-align: center;
+}
+
+.piederecho ul{
+    list-style: none;   
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+     
+}
+
+.piederecho a{
+    padding: 10px;
+   
+}
+
+.piederecho a:hover{
+    font-size: 60px;  
+
+}
+
+
+
+
+

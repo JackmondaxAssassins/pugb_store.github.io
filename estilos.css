@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Protest Riot', sans-serif;
+    
+
+}
+
+html {
+    height: 100%;
+}
+
+body {
+  
+   background-color: white;
+
+  
+    
+}
+
+header {
+   height: 550px;
+   width: 100%;
+   position: relative;
+   overflow: hidden;  
+   
+    
+}
+
+video {
+    width: 100%;
+ 
+   
+}
+
+.contai {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute; 
+    background: rgba(0, 0, 0, 0.658);
+}
+
+
+.conn{
+    width: 100%;
+     height: 100%;
+     top: 90px;  
+     position: absolute;    
+     left: 30px; 
+  
+}
+
+.logo{  
+    width: 100%;
+    display: flex;   
+    align-items: center; 
+  
+}
+.logo img{
+    width: 400px;
+    height: 300px; 
+   
+}
+
+.logo h1{
+    color: rgb(219, 184, 28);
+    font-size: 70px;
+    display: flex;
+    padding-left: 160px;
+  
+    
+}
+
+.naveg{
+    height: 200px;  
+    display: flex;
+    justify-content: right;   
+    align-items: center;
+    padding-right: 60px;
+}
+
+
+.naveg ul{
+    display: inline-flex;   
+    list-style: none;
+    padding: 0;
+    align-items: end;   
+}
+
+.naveg a{
+    color: rgb(237, 241, 25);
+    text-decoration: none;
+    padding: 10px;
+    font-size: 34px;
+  
+
+ }
+
+.naveg a:hover{
+    color: rgb(224, 15, 15);
+    font-size:30px;
+   
+}
+
+.secimg{
+    background-image: url(/imagenes/11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;    
+}
+
+.secimg1{
+  position: relative;
+  top: 100px;
+  font-size: 37px; 
+  left: 60px;
+}
+
+.secimg1 h1{
+    color: rgba(243, 136, 13, 0.767);
+    font-size: 60px;
+}
+.secimg1 h6{
+    color: rgba(223, 137, 25, 0.767);
+}
+
+.secimg1 h4{
+    color: rgb(223, 55, 25);
+}
+
+.secimg1 button{   
+    background: rgba(255, 174, 0, 0.603);
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    
+}
+
+.secimg1 button a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.secimg1 button:hover{
+    background: rgba(139, 0, 0, 0.5);
+    cursor: pointer;
+    font-size: 30px;
+    
+    
+}
+
+.secizqierdo{
+ 
+  background: rgb(17, 17, 17);
+  padding: 40px;
+  
+}
+
+.articul1{
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.arti1 h2{
+    color: brown;
+    text-align: center;
+}
+
+.arti1 p{
+    text-align: justify;
+    font-size: 17px;
+    padding-top: 20px;
+    color: rgba(0, 0, 0, 0.685);
+}
+
+.arti1 iframe{
+   position: relative;
+   left: 330px;
+   border-radius: 20px;
+   
+       
+    
+}
+
+.articul2{
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    border-radius: 20px;
+
+}
+
+.arti2 h2{
+    color: brown;
+    text-align: center;
+}
+
+.arti2 p{
+    text-align: justify;
+    font-size: 17px;
+    padding-top: 20px;
+    color: rgba(0, 0, 0, 0.685);
+}
+
+.arti2 img{
+    position: relative;
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+    left: 400px;
+
+    
+}
+
+.articul3{
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.articul3 h2{
+    color: brown;
+    text-align: center;
+}
+
+.articul3 .vid{      
+    display: flex; 
+    justify-content: center;
+    
+}
+.vid video{
+    width: 30%;
+    height: 300px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+
+.footer{    
+    background: rgba(0, 0, 0, 0.699);
+    display: flex;
+    padding-top: 40px;
+    text-align: center;
+
+}
+
+.pieizquierdo{   
+    width: 100%;
+}
+
+.pieizquierdo img{
+    border-radius: 150px;
+}
+
+.piemedio{ 
+    width: 100%;
+    text-align: center;
+}
+.piemedio h3{
+    color:  rgb(237, 241, 25);
+    font-size: 27px;   
+}
+
+.piemedio ul{
+    list-style: none;   
+    padding-top: 40px;
+}
+
+.piederecho{  
+    width: 100%;
+}
+
+.piederecho h3{
+    color:  rgb(237, 241, 25);
+    font-size: 27px;
+    text-align: center;
+}
+
+.piederecho ul{
+    list-style: none;   
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+     
+}
+
+.piederecho a{
+    padding: 10px;
+   
+}
+
+.piederecho a:hover{
+    font-size: 60px;  
+
+}
+
+@media screen and (max-width:800px) {
+ 
+     
+    
+     
+     .contai {
+         width: 100%;
+         height: 100%;
+         padding-left: 90px;
+        
+        
+        
+           
+    
+     }
+     
+     nav {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+       
+  
+        
+      
+         
+     }
+     
+     nav img{
+         width: 150px;
+         height: 150px;       
+        
+     }
+     
+     nav h1{  
+         
+         font-size: 30px;
+         
+     }
+
+       
+  
+     .secimg1{
+      
+       font-size: 20px; 
+       left: 20px;
+     }
+     
+     .secimg1 h1{
+    
+         font-size: 30px;
+     }
+   
+    
+     .secimg1 button{   
+ 
+         font-size: 15px;             
+         width: 100px;
+         height: 40px;
+         
+     }
+     
+     .arti1 iframe{
+       
+       left: 40px;          
+         
+     }
+
+
+     .arti2 img{  
+     
+        left: 110px;
+    
+        
+    }
+
+    .vid video{
+        width: 40%;      
+        padding: 10px;
+        }
+     
+        .footer{    
+            
+            display: flex;
+            flex-direction: column;
+            padding-top: 40px;
+            text-align: center;
+        
+        }
+
+
+
+    
+    }
+
+
+
+    @media screen and (max-width:1080px) {
+ 
+     
+       header{
+       
+       }      
+        
+        nav {
+            display: flex;      
+            flex-wrap: wrap;
+        }
+        
+        nav img{
+            width: 250px;
+            height: 150px;       
+           
+        }
+        
+        nav h1{  
+            
+            font-size: 40px;
+            
+        }
+       
+        nav ul{
+             margin-top: 90px;
+             margin-left: 450px;
+          
+           
+          
+           
+        }
+        
+        
+
+          
+     
+        .secimg1{
+         
+          font-size: 40px; 
+          left: 20px;
+        }
+        
+        .secimg1 h1{
+       
+            font-size: 50px;
+        }
+      
+       
+        .secimg1 button{   
+    
+            font-size: 20px;             
+            width: 150px;
+            height: 50px;
+            
+        }
+        
+        .arti1 iframe{
+          
+          left: 50px;          
+            
+        }
+   
+   
+        .arti2 img{  
+        
+           left: 150px;
+       
+           
+       }
+   
+       .vid video{
+           width: 40%;      
+           padding: 10px;
+           } 
+   
+       
+       }
